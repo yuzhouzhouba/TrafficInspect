@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+	<com.slidingmenu.SlidingMenu
+	    android:id="@+id/leftmenu"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:orientation="horizontal"
+	        >
+	        <include 
+	            layout="@layout/slidingmenu"
+	             />
+		<include 
+		    	layout="@layout/main_interface"
+		    />
+	    </LinearLayout>
+	    
+	</com.slidingmenu.SlidingMenu>
+</RelativeLayout>

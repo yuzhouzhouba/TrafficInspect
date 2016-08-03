@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#4F94CD" >
+
+    <RelativeLayout
+        android:id="@+id/part1"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/touxiang"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/tx" />
+
+        <TextView
+            android:id="@+id/nicheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/nicheng"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:layout_toRightOf="@+id/touxiang"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/tixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nicheng"
+            android:layout_below="@+id/nicheng"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:textColor="#27408B"
+            android:text="@string/tishi" />
+        <ImageView 
+            android:id="@+id/part1more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/more_white"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+    
+    <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#A2B5CD"
+		   android:layout_below="@+id/part1"
+		   android:layout_marginTop="2dp" 
+/>
+    <!-- view控件设置分割线 -->
+    <RelativeLayout 
+        android:id="@+id/part2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+       <ListView
+        android:id="@+id/slidingmenu_lv1" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        ></ListView>
+ </RelativeLayout>
+ 
+    <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#A2B5CD"
+		   android:layout_below="@+id/part2"
+		   android:layout_marginTop="20dp" 
+/>
+
+
+   
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="2"
+	    >
+
+	     <ListView
+        android:id="@+id/slidingmenu_lv2" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        ></ListView>
+	</RelativeLayout>
+	 <View  android:layout_height="1px" 
+           android:layout_width="match_parent"
+           android:background="#A2B5CD"
+		   android:layout_below="@+id/part2"
+		   android:layout_marginTop="20dp" 
+/>
+	
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="2"
+	    >
+	    <ListView 
+	    android:id="@+id/slidingmenu_lv3" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"     
+	        ></ListView>
+	</RelativeLayout>
+	
+	
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    
+	    ></RelativeLayout>
+</LinearLayout>

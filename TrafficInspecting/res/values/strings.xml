@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrafficInspecting</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tishi">QQ登陆保护中，风险提醒</string>
+    <string name="nicheng">康康kkkkkk</string>
+    <string name="advice">意见反馈</string>
+    <string name="detail_advice">您的建议对我们非常重要，请留下您困扰的问题或宝贵的建议，我们收到后将尽快回复，敬请留意。</string>
+    <string name="submit">提交</string>
+    <string name="hint">写下您的建议或意见</string>
+
+</resources>

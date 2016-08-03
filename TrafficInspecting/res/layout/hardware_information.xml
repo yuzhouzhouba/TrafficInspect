@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="73dp"
+        android:text="手机号码:" 
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv1"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="12dp"
+        android:text="IMEI:"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv2"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="12dp"
+        android:text="运营商:"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv3"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="12dp"
+        android:text="sim卡序列号:" 
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv4"
+        android:layout_below="@+id/tv4"
+        android:layout_marginTop="12dp"
+        android:text="IMSI:"
+        android:textSize="14sp"
+         />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv5"
+        android:layout_below="@+id/tv5"
+        android:layout_marginTop="12dp"
+        android:text="ISO:" 
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv6"
+		android:layout_alignLeft="@+id/tv5"
+		android:layout_marginTop="12dp"
+        android:text="运营商编号:"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/phone_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv1"
+        android:layout_toRightOf="@+id/tv1"
+        android:layout_marginLeft="8dp"
+        android:textSize="14sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/imei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv2"
+        android:layout_toRightOf="@+id/tv2"
+        android:layout_marginLeft="8dp"
+        android:textSize="14sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/operator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv3"
+        android:layout_toRightOf="@+id/tv3"
+        android:layout_marginLeft="8dp"
+        android:textSize="14sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/sim_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv4"
+        android:layout_toRightOf="@+id/tv4"
+        android:layout_marginLeft="8dp"
+        android:textSize="14sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/imsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv5"
+        android:layout_toRightOf="@+id/tv5"
+        android:layout_marginLeft="8dp"
+        android:textSize="14sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/iso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv6"
+        android:layout_toRightOf="@+id/tv6"
+        android:layout_marginLeft="8dp"
+        android:textSize="14sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/operator_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv7"
+        android:layout_toRightOf="@+id/tv7"
+        android:layout_marginLeft="8dp"
+        android:textSize="14sp"
+        android:text="TextView" />
+
+</RelativeLayout>
